@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>폼 삽입하기</title>
+</head>
+<body>
+  <form action="">
+    <ul id="shipping">
+      <li>
+        <label for="prod">주문 상품</label>
+        <input type="text" id="prod" value="상품용 3KG">
+      </li>
+      <li>
+        <label for="user-name">이름</label>
+        <input type="text" id="user-name">
+      </li>
+      <li>
+        <label for="addr">배송 주소</label>
+        <input type="text" id="addr">
+      </li>
+      <li>
+        <label for="text">이메일</label>
+        <input type="email" id="text">
+      </li>
+      <li>
+        <label for="phone">연락처</label>
+        <input type="tel" id="phone">
+      </li>
+    </ul>
+  </form>
+</body>
+</html>
+<!--
+  type="tel" : 웹에서는 차이가 없지만, 모바일에서는 숫자패드로 입력 가능
+  type="email" : 이메일 형식이 맞지 않는 경우 안되게 하기 가능
+-->
